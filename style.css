@@ -12,12 +12,12 @@ body {
     }
 }
    
-h1 {
+.nameLink {
         position: absolute;
         top: 50%;
         margin-top: 0;
         text-align: center;
-        color: white;
+        color: rgb(255, 0, 238);
         height: 100px;
         width: 100%;
   }
