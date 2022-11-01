@@ -11,26 +11,93 @@ body {
         background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
     }
 }
-   
-.nameLink {
-        position: absolute;
-        top: 50%;
-        margin-top: 0;
-        text-align: center;
-        color: rgb(255, 0, 238);
-        height: 100px;
-        width: 100%;
+
+.container {
+    align-self:flex-end;
+    align-items: center;
+    color: white; /* or inline-flex */
   }
-/* button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: rgb(237, 4, 4);
+
+.images {
+    float: left;
+    padding: 30px;
+}
+
+#aboutMeDiv {
+    display: inline;
+    justify-content: center;
+    color:rgb(251, 251, 251);
+}
+
+a {
+    position: absolute;
+    top: 50%;
+    margin-top: 0;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 221, 255);
+    height: 100px;
+    width: 100%;
+}
+
+#projectsLink {
+    position:relative;
+    text-decoration: none;
+    text-align: justify;
+    color: rgb(0, 221, 255);
+    height: 100px;
+    width: 0;
+}
+
+#resumeLink {
+    position:relative;
+    text-decoration: none;
+    text-align:justify;
+    color: rgb(0, 221, 255);
+    height: 100px;
+    width: 0%;
+}
+
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    
+}
+
+.header {
+    overflow: hidden;
+    /* background-color:rgb(254, 253, 255); */
+    color:rgb(255, 255, 255);
+
+}
+
+.header h1 {
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.header input{
+    background-color: #0130ff; 
+    border: blue;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-  } /*
+    font-size: 12px;
+  } 
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            
+}
+
+
   
 .footers{
     background-color: #f902a7; /* Green */
