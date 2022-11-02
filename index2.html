@@ -11,16 +11,16 @@
 <body>
     <div class="header">
         <input type="button" value="Go back!" onclick="history.back()">
-        <h1>Milad Tehrani</h1>
+        <h1 id="nameLink">Milad Tehrani</h1>
       </div>
     <div id="page-container">
         <div id="content-wrap">
             <div id="aboutMeDiv"><img src="images/headshot.png" alt="Milad Tehrani Headshot" class="images"> 
-                <h3 id="aboutMeDiv">
+                <h4 id="aboutMeDiv">
                     About Me
                     <p>Software Engineer</p>
                     <p>I’m a Software Engineer with a background in Management Information Systems.  I use my unique  experience in learning and development to collectively work with others to solve complex problems. My unique experience enables me to approach every issue with a logical and compassionate perspective.</p>  
-                    <p>Skills
+                    <p id="skills">Skills
                         <ul>
                             <li>Javascript</li>
                             <li>Git</li>
@@ -29,18 +29,16 @@
                             <li>HTML</li>
                         </ul>
                         </p>
-                </h3>
-                <!-- <p>Software Engineer</p>
-                <p id="aboutMeDiv">I’m a Software Engineer with a background in Management Information Systems.  I use my unique  experience in learning and development to collectively work with others to solve complex problems. My unique experience enables me to approach every issue with a logical and compassionate perspective.</p> -->
-                
+                </h4>
+            </div>
             <div>
-            <h3 id="projectsLink"><a href="./index3.html">Projects</a></h3>
-            <h3 onclick="window.open('https://drive.google.com/file/d/1X9zyneOCBbtiCC30dXeORUYDqGslzxeE/view?usp=share_link')" id="resumeLink">Resume</h3>
-         </div>
+            <h3 class="projectsLink"><a href="./index3.html">Projects</a></h3>
+            <h3 class="projectsLink" onclick="window.open('https://drive.google.com/file/d/1X9zyneOCBbtiCC30dXeORUYDqGslzxeE/view?usp=share_link')" id="resumeLink">Resume</h3>
+            </div>
         </div>
         <footer>
-            <button onclick="window.open('https://www.linkedin.com/in/miladtehrani/')" class="link">Linkedin</button>
-            <button onclick="window.open('https://www.github.com/tehranimilad')" class="link">GitHub</button>
+            <button onclick="window.open('https://www.linkedin.com/in/miladtehrani/')" class="footerLink">Linkedin</button>
+            <button onclick="window.open('https://www.github.com/tehranimilad')" class="footerLink">GitHub</button>
         </footer>
     </div>
     

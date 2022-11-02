@@ -1,59 +1,75 @@
+
 /* default style for mobile */
+
 body {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+    background: rgb(192,210,230);
+    background: -moz-linear-gradient(160deg, rgba(192,210,230,1) 60%, rgba(255,255,255,1) 77%);
+    background: -webkit-linear-gradient(160deg, rgba(192,210,230,1) 60%, rgba(255,255,255,1) 77%);
+    background: linear-gradient(160deg, rgba(192,210,230,1) 60%, rgba(255,255,255,1) 77%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c0d2e6",endColorstr="#ffffff",GradientType=1);
    }
-   
-   /* styles for desktop when the browser is 600px or above */
+    
+   /* /* styles for desktop when the browser is 600px or above */
    @media (min-width: 600px) {
     body {
-        background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+        background: rgb(205,213,212);
+        background: -moz-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
+        background: -webkit-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
+        background: radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdd5d4",endColorstr="#ffffff",GradientType=1);
     }
-}
-
-.container {
-    align-self:flex-end;
-    align-items: center;
-    color: white; /* or inline-flex */
-  }
-
-.images {
-    float: left;
-    padding: 30px;
 }
 
 #aboutMeDiv {
     display: inline;
     justify-content: center;
-    color:rgb(251, 251, 251);
+    color:rgb(0, 0, 0);
 }
 
-a {
-    position: absolute;
-    top: 50%;
-    margin-top: 0;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(0, 221, 255);
-    height: 100px;
-    width: 100%;
-}
+/* Used code from https://alvarotrigo.com/blog/css-text-animations/ in order to generate CSS effects */
+.nameLink {
+    text-transform: uppercase;
+       background-image: linear-gradient(
+         -225deg,
+         #000000 0%,
+         #9e9c9e 29%,
+         #b0aeae 67%,
+         #3d3d3d 100%
+       );
+       background-size: auto auto;
+       background-clip: border-box;
+       background-size: 200% auto;
+       color: #fff;
+       background-clip: text;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       animation: textclip 2.5s linear infinite;
+       display:inline-block;
+       position: absolute;
+       top: 35%;
+       right: 28%;
+           font-size: 75px;
+     }
+     
+     @keyframes textclip {
+       to {
+         background-position: 200% center;
+       }
+     }
 
-#projectsLink {
-    position:relative;
-    text-decoration: none;
-    text-align: justify;
-    color: rgb(0, 221, 255);
+h3 #projectsLink {
+    position: right;
+    text-align:right;
+    color: rgb(185, 185, 185);
     height: 100px;
     width: 0;
 }
 
 #resumeLink {
-    position:relative;
+    position:right;
     text-decoration: none;
-    text-align:justify;
-    color: rgb(0, 221, 255);
+    text-align:right;
+    color: rgb(120, 120, 120);
     height: 100px;
     width: 0%;
 }
@@ -69,43 +85,49 @@ a {
 }
 
 .header {
+    display:flex
     overflow: hidden;
-    /* background-color:rgb(254, 253, 255); */
     color:rgb(255, 255, 255);
 
 }
 
-.header h1 {
+.header h1 {   
     text-align: center;
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
 }
 
 .header input{
-    background-color: #0130ff; 
-    border: blue;
-    color: white;
-    padding: 15px 32px;
+    background: rgb(205,213,212);
+    background: -moz-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
+    background: radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdd5d4",endColorstr="#ffffff",GradientType=1);
+    border-radius: 5%;
+    padding: 5px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
+    display:inline-block;
+    font-size: 14px; 
   } 
+  
   footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 2.5rem;            
 }
 
-
   
-.footers{
-    background-color: #f902a7; /* Green */
-    border: none;
-    color: rgb(13, 13, 13);
-    padding: 15px 32px;
+.footerLink {
+    background: rgb(205,213,212);
+    background: -moz-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
+    background: radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdd5d4",endColorstr="#ffffff",GradientType=1);
+    border-radius: 5%;
+    padding: 5px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-} 
+    display:inline;
+    font-size: 14px; 
+}
