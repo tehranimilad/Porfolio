@@ -1,6 +1,8 @@
 
 /* default style for mobile */
+@media (max-width: 599px){
 body {
+
   width: 100%;
   height: 100vh;
   align-items: center;
@@ -14,14 +16,192 @@ body {
         rgb(216, 216, 216) 100%
   );  
   animation: AnimateBG 15s ease infinite;
-}
+  }
 
 @keyframes AnimateBG { 
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
-    
+
+.nameLink {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+}
+
+.nameLink2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  }    
+
+.nameLink3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+ }    
+
+.images{
+    margin-right: 4%;
+    float: left;
+    margin: 60px 50px 20px 105px;
+    background: transparent;
+    padding: 0px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    max-width: 40%;
+}
+
+#aboutMeDiv {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  float: none;
+  width: 90%;
+  color:rgb(4, 4, 4);
+  }
+
+#nameLink1 {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+  -225deg,
+  #00b0ba 0%,
+  #797979 30%,
+  #000000 67%,
+  #929292 100% );
+  background-size: auto;
+  background-clip: border-box;
+  background-size: 200%;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-size: 45px;
+}
+     
+     @keyframes textclip {
+       to {
+         background-position: 200% center;
+       }
+}
+
+#nameLinkMain {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+  -225deg,
+  #00b0ba 0%,
+  #797979 30%,
+  #000000 67%,
+  #929292 100% );
+  background-size: auto;
+  background-clip: border-box;
+  background-size: 200%;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-size: 42px;
+}
+     
+     @keyframes textclip {
+       to {
+         background-position: 200% center;
+       }
+}
+
+#nameLinkSubtitle {
+  text-transform: uppercase;
+     background-image: linear-gradient(
+       -225deg,
+       #00b0ba 0%,
+       #797979 30%,
+       #000000 67%,
+       #929292 100%
+     );
+     background-size: auto;
+     background-clip: border-box;
+     background-size: 200%;
+     color: #fff;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: textclip 4s linear infinite;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 150px;
+     font-size: 22px;
+   }
+   
+   @keyframes textclip {
+     to {
+       background-position: 200% center;
+     }
+}
+
+#nameLinkBottom{
+  text-transform:uppercase;
+     background-image: linear-gradient(
+       -225deg,
+       #00b0ba 0%,
+       #797979 30%,
+       #000000 67%,
+       #929292 100%
+     );
+     background-size: auto;
+     background-clip: border-box;
+     background-size: 200%;
+     color: #fff;
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     animation: textclip 4s linear infinite;
+     display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 150px;
+     font-size: 17px;
+   }
+   
+   @keyframes textclip {
+     to {
+       background-position: 200% center;
+     }
+  }
+  
+#aboutMeTitle {
+  text-align: center;
+ 
+}
+
+nav {
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  text-align: center;
+}
+
+.hidden-page {
+  display: none;
+  }
+}
+
+
 /* /* styles for desktop when the browser is 600px or above */
   @media (min-width: 600px) {
     body {
@@ -50,16 +230,16 @@ body {
 
 
 /* controls all the text on the about me page */
-#aboutMeDiv {
-    padding: 0% 0% 0% 10%;
-    margin-top: 10%;
-    margin-right: 30%;
-    justify-content: left;
+/* #aboutMeDiv {
+    display:flex;
+    align-items: center;
+    float: none;
+    width: 30%;
     color:rgb(0, 0, 0);
-}
+} */
 
 /* Used code from https://alvarotrigo.com/blog/css-text-animations/ in order to generate CSS effects and altered it to position correctly */
-.nameLink {
+/* #nameLink {
     text-transform: uppercase;
        background-image: linear-gradient(
          -225deg,
@@ -87,9 +267,9 @@ body {
        to {
          background-position: 200% center;
        }
-}
+} */
 
-.nameLink2 {
+/* .nameLink2 {
       text-transform: uppercase;
          background-image: linear-gradient(
            -225deg,
@@ -117,9 +297,9 @@ body {
          to {
            background-position: 200% center;
          }
-}
+} */
 
-.nameLink3 {
+/* .nameLink3 {
   text-transform:uppercase;
      background-image: linear-gradient(
        -225deg,
@@ -148,7 +328,7 @@ body {
        background-position: 200% center;
      }
   }
-  
+   */
 
 #aboutLink1 {
     display:flex;
@@ -229,20 +409,14 @@ body {
   } 
   
   footer {
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     height: 2.5rem;            
 }
 
-.images {
-    margin-right: 4%;
-    float: left;
-    background: transparent;
-    padding: 0px;
-    border: 1px solid rgb(0, 0, 0);
-    box-shadow: 10px 10px 10px rgb(0, 0, 0);
-}
+
+
 
 .projectPictures {
   padding-top: 2%;
