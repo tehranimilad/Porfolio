@@ -5,7 +5,6 @@ body {
 
   width: 100%;
   height: 100vh;
-  align-items: center;
   justify-content: center;
   background-size: 300% 300%;
   background-image: linear-gradient(
@@ -48,12 +47,12 @@ body {
 .images{
     margin-right: 4%;
     float: left;
-    margin: 60px 50px 20px 105px;
+    margin: 0px 50px 20px 105px;
     background: transparent;
     padding: 0px;
     border: 1px solid rgb(0, 0, 0);
     box-shadow: 10px 10px 10px rgb(0, 0, 0);
-    max-width: 40%;
+    max-width: 50%;
 }
 
 #aboutMeDiv {
@@ -202,9 +201,10 @@ nav {
 }
 
 
-/* /* styles for desktop when the browser is 600px or above */
-  @media (min-width: 600px) {
-    body {
+/********************** default style for computers ***********************/
+@media (min-width: 600px){
+  body {
+  
     width: 100%;
     height: 100vh;
     align-items: center;
@@ -213,33 +213,120 @@ nav {
     background-image: linear-gradient(
           -45deg, 
           rgb(99, 206, 248) 0%, 
-          rgb(210, 238, 254) 2%, 
-          rgb(214, 214, 214) 51%, 
+          rgb(181, 181, 181) 25%, 
+          rgb(208, 208, 208) 51%, 
           rgb(216, 216, 216) 100%
     );  
     animation: AnimateBG 15s ease infinite;
-  }
+    }
   
   @keyframes AnimateBG { 
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
   }
-}
+  
+  .nameLink {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .nameLink2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+    }    
+  
+  .nameLink3 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      max-width: 100%;
+   }    
+  
+  .images{
+      background: transparent;
+      align-content: center;
+      margin: 0% 0% 0% 30%;
+      border: 1px solid rgb(0, 0, 0);
+      box-shadow: 10px 10px 10px rgb(0, 0, 0);
+      width: 40%;
 
 
-
-/* controls all the text on the about me page */
-/* #aboutMeDiv {
+  }
+  
+  #aboutMeDiv {
     display:flex;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
     float: none;
-    width: 30%;
-    color:rgb(0, 0, 0);
-} */
-
-/* Used code from https://alvarotrigo.com/blog/css-text-animations/ in order to generate CSS effects and altered it to position correctly */
-/* #nameLink {
+    width: 90%;
+    color:rgb(4, 4, 4);
+    }
+  
+  #nameLink1 {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    #00b0ba 0%,
+    #797979 30%,
+    #000000 67%,
+    #929292 100% );
+    background-size: auto;
+    background-clip: border-box;
+    background-size: 200%;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 45px;
+  }
+       
+       @keyframes textclip {
+         to {
+           background-position: 200% center;
+         }
+  }
+  
+  #nameLinkMain {
+    text-transform: uppercase;
+    background-image: linear-gradient(
+    -225deg,
+    #00b0ba 0%,
+    #797979 30%,
+    #000000 67%,
+    #929292 100% );
+    background-size: auto;
+    background-clip: border-box;
+    background-size: 200%;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 4s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 42px;
+  }
+       
+       @keyframes textclip {
+         to {
+           background-position: 200% center;
+         }
+  }
+  
+  #nameLinkSubtitle {
     text-transform: uppercase;
        background-image: linear-gradient(
          -225deg,
@@ -260,118 +347,25 @@ nav {
        justify-content: center;
        align-items: center;
        height: 150px;
-       font-size: 65px;
+       font-size: 22px;
      }
      
      @keyframes textclip {
        to {
          background-position: 200% center;
        }
-} */
-
-/* .nameLink2 {
-      text-transform: uppercase;
-         background-image: linear-gradient(
-           -225deg,
-           #00b0ba 0%,
-           #797979 30%,
-           #000000 67%,
-           #929292 100%
-         );
-         background-size: auto;
-         background-clip: border-box;
-         background-size: 200%;
-         color: #fff;
-         background-clip: text;
-         -webkit-background-clip: text;
-         -webkit-text-fill-color: transparent;
-         animation: textclip 4s linear infinite;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         height: 150px;
-         font-size: 30px;
-       }
-       
-       @keyframes textclip {
-         to {
-           background-position: 200% center;
-         }
-} */
-
-/* .nameLink3 {
-  text-transform:uppercase;
-     background-image: linear-gradient(
-       -225deg,
-       #00b0ba 0%,
-       #797979 30%,
-       #000000 67%,
-       #929292 100%
-     );
-     background-size: auto;
-     background-clip: border-box;
-     background-size: 200%;
-     color: #fff;
-     background-clip: text;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     animation: textclip 4s linear infinite;
-     display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 150px;
-     font-size: 20px;
-   }
-   
-   @keyframes textclip {
-     to {
-       background-position: 200% center;
-     }
   }
-   */
-
-#aboutLink1 {
-    display:flex;
-    padding: 0% 5% 0% 0%;
-    justify-content: right;
-    text-decoration: underline;
-    color: rgb(0, 0, 0);
   
-}
-
-#aboutLink2 {
-  display:flex;
-  height: 50%;
-  padding: 0% 5% 0% 0%;
-  justify-content: right;
-  text-decoration: underline;
-  color: rgb(0, 0, 0);
-}
-
-#aboutMeTitle{
-  font-weight: bolder;
-  text-decoration: underline;
-  
-}
-
-.header {
-    text-align: center;
-    display:inline;
-    overflow: hidden;
-    color:rgb(255, 255, 255);
-}
-
-.header h1 {   
-  text-transform: uppercase;
+  #nameLinkBottom{
+    text-transform:uppercase;
        background-image: linear-gradient(
          -225deg,
-         #86c9c8 0%,
-         #9e9c9e 29%,
+         #00b0ba 0%,
+         #797979 30%,
          #000000 67%,
-         #aeaeae 100%
+         #929292 100%
        );
        background-size: auto;
-       text-align: center;
        background-clip: border-box;
        background-size: 200%;
        color: #fff;
@@ -379,71 +373,32 @@ nav {
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;
        animation: textclip 4s linear infinite;
-       display:inline-block;
-       position: absolute;
-       top: 0%;
-       right: 40%;
-           font-size: 30px;
+       display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 150px;
+       font-size: 17px;
      }
      
      @keyframes textclip {
        to {
          background-position: 200% center;
        }
-     }
-
-
-
-.header input{
-    background: rgb(205,213,212);
-    background: -moz-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
-    background: radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdd5d4",endColorstr="#ffffff",GradientType=1);
-    border-radius: 5%;
-    padding: 5px 32px;
+    }
+    
+  #aboutMeTitle {
     text-align: center;
-    text-decoration: none;
-    display:inline-block;
-    font-size: 14px; 
-  } 
+   
+  }
   
-  footer {
-    position: static;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            
-}
-
-
-
-
-.projectPictures {
-  padding-top: 2%;
-  text-align: center;
-}
-
-#projectPageText {
-  text-align: center;
-  padding-top: 10%;
-}
-
-#skillsList{
-  margin-top: 7%;
-}
-
-#skillsListUl {
-  margin-right: 0%;
-}
-
-.footerLink {
-    background: rgb(205,213,212);
-    background: -moz-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
-    background: radial-gradient(circle, rgba(205,213,212,1) 30%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#cdd5d4",endColorstr="#ffffff",GradientType=1);
-    padding: 5px 15px;
-    font-size: 14px; 
-    position:static;
-    right: 50%;
+  nav {
+    display: flex;
+    align-content: stretch;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hidden-page {
+    display: none;
+    }
 }
