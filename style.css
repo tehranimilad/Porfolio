@@ -211,7 +211,21 @@
 #aboutMeTitle {
   text-align: center;
   text-decoration: underline;
- 
+}
+
+#projectPictures {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+#ulList {
+  list-style: none;
+  align-items: center;
+  padding: 0% 0% 0% 0%
 }
 
 nav {
@@ -230,36 +244,37 @@ nav {
 /********************** default style for computers ***********************/
 @media (min-width: 600px){
   body {
-  
+
     width: 100%;
     height: 100vh;
-    align-items: center;
     justify-content: center;
     background-size: 300% 300%;
     background-image: linear-gradient(
           -45deg, 
-          #ffffff 0%,
+          #000000 0%,
           #000000 30%,
           #000000 67%,
           #ffffff 100%
     );  
     animation: AnimateBG 15s ease infinite;
     }
+    body {
+      background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
+      background-color: #cccccc; 
+      min-height: 100%;
+      background-attachment: fixed;
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-size: cover; 
+    }
+  
   
   @keyframes AnimateBG { 
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
-  }
-
-body {
-  background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
-  background-color: #cccccc; 
-  min-height: 100%;
-  background-attachment: fixed;
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover; 
+  } 
+  
 }
   .nameLink {
     display: flex;
@@ -293,7 +308,7 @@ body {
 
   }
   
-#aboutMeInfo {
+#aboutMeDiv {
     display:flex;
     margin: 0% 25% 0% 20%;
     padding: 1% 5% 1% 5%;
@@ -305,6 +320,29 @@ body {
     width: 50%;
     color:rgb(4, 4, 4);
     }
+
+#projectPictures {
+  background-color: white;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 2%
+}
+
+#ulList {
+  list-style: none;
+  align-items: center;
+  padding: 0% 0% 0% 0%
+}
+
+#skillTitle{
+  display:flex;
+  flex-direction: column;
+  text-decoration:underline;
+  text-align:center;
+  padding: 0% 0% 1% 0%;
+}
+
   
   #nameLink1 {
     text-transform: uppercase;
@@ -428,6 +466,7 @@ body {
     
   #aboutMeTitle {
     text-align: center;
+    text-decoration: underline;
    
   }
   
@@ -440,5 +479,4 @@ body {
   
   .hidden-page {
     display: none;
-  }
 }
