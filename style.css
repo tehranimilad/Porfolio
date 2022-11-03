@@ -5,6 +5,8 @@
 
   width: 100%;
   height: 100vh;
+  font-family: sans-serif;
+  font-size: 14px;
   justify-content: center;
   background-size: 300% 300%;
   background-image: linear-gradient(
@@ -13,7 +15,7 @@
         #000000 30%,
         #000000 67%,
         #ffffff 100%
-  );  
+);  
   animation: AnimateBG 15s ease infinite;
   }
   body {
@@ -68,12 +70,13 @@
 #aboutMeDiv {
   display:flex;
   flex-direction: column;
-  margin: 0% 25% 0% 20%;
+  background: white;
+  margin: 2% 25% 0% 20%;
   padding: 5% 5% 1% 5%;
   text-align: center;
-  align-items: center;
+  align-items: normal;
   float: none;
-  width: 90%;
+  width: 50%;
   color:rgb(4, 4, 4);
 }
 
@@ -130,7 +133,7 @@
   align-items: center;
   max-width: 599px;
   height: 150px;
-  font-size: auto;
+  font-size: 33px;
 }
      
      @keyframes textclip {
@@ -213,8 +216,17 @@
     }
   
 #aboutMeTitle {
-  text-align: center;
+  display:flex;
   text-decoration: underline;
+  margin: 3% 25% 2% 20%;
+  padding: 1% 5% 1% 5%;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+  align-items: normal;
+  float: none;
+  width: 50%;
+  color:rgb(4, 4, 4);
 }
 
 #projectPictures {
@@ -251,16 +263,18 @@ nav {
 
     width: 100%;
     height: 100vh;
+    font-family: sans-serif;
+    font-size: 16px;
     justify-content: center;
     background-size: 300% 300%;
     background-image: linear-gradient(
-          -45deg, 
+          -225deg, 
           #000000 0%,
           #000000 30%,
           #000000 67%,
           #ffffff 100%
     );  
-    animation: AnimateBG 15s ease infinite;
+    animation: AnimateBG 7s ease infinite;
   }
     body {
       background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
@@ -278,7 +292,7 @@ nav {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
   }  
-}
+
 
   .nameLink {
     display: flex;
@@ -323,7 +337,7 @@ nav {
     float: none;
     width: 50%;
     color:rgb(4, 4, 4);
-    }
+  }
 
 #projectPictures {
   background-color: white;
@@ -349,8 +363,7 @@ nav {
   padding: 0% 0% 1% 0%;
 }
 
-  
-  #nameLink1 {
+#nameLink1 {
     text-transform: uppercase;
     background-image: linear-gradient(
     -225deg,
@@ -401,7 +414,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 150px;
-    font-size: auto;
+    font-size: 45px;
   }
        
        @keyframes textclip {
@@ -409,7 +422,6 @@ nav {
            background-position: 200% center;
          }
   }
-  
   #nameLinkSubtitle {
     text-transform: uppercase;
        background-image: linear-gradient(
@@ -431,7 +443,7 @@ nav {
        justify-content: center;
        align-items: center;
        height: 150px;
-       font-size: 26px;
+       font-size: 27px;
      }
      
      @keyframes textclip {
@@ -471,9 +483,17 @@ nav {
     }
     
   #aboutMeTitle {
-    text-align: center;
+    display:flex;
     text-decoration: underline;
-   
+    margin: 3% 25% 2% 20%;
+    padding: 1% 5% 1% 5%;
+    background-color: white;
+    flex-direction: column;
+    text-align: center;
+    align-items: normal;
+    float: none;
+    width: 50%;
+    color:rgb(4, 4, 4);
   }
   
   nav {
