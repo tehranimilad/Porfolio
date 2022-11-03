@@ -1,7 +1,7 @@
 
 /* default style for mobile */
 @media (max-width: 599px){
-body {
+ body {
 
   width: 100%;
   height: 100vh;
@@ -9,19 +9,30 @@ body {
   background-size: 300% 300%;
   background-image: linear-gradient(
         -45deg, 
-        rgb(99, 206, 248) 0%, 
-        rgb(181, 181, 181) 25%, 
-        rgb(208, 208, 208) 51%, 
-        rgb(216, 216, 216) 100%
+        #ffffff 0%,
+        #afaeae 30%,
+        #525151 67%,
+        #020202 100%
   );  
   animation: AnimateBG 15s ease infinite;
   }
+  body {
+    background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
+    background-color: #cccccc; 
+    height: 500px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+
 
 @keyframes AnimateBG { 
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
-}
+} 
+
+
 
 .nameLink {
   display: flex;
@@ -67,10 +78,11 @@ body {
   text-transform: uppercase;
   background-image: linear-gradient(
   -225deg,
-  #00b0ba 0%,
-  #797979 30%,
-  #000000 67%,
-  #929292 100% );
+  #ffffff 0%,
+  #afaeae 30%,
+  #525151 67%,
+  #020202 100%
+  );
   background-size: auto;
   background-clip: border-box;
   background-size: 200%;
@@ -78,7 +90,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 4s linear infinite;
+  animation: textclip 6s linear infinite;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,10 +108,11 @@ body {
   text-transform: uppercase;
   background-image: linear-gradient(
   -225deg,
-  #00b0ba 0%,
-  #797979 30%,
-  #000000 67%,
-  #929292 100% );
+  #ffffff 0%,
+  #afaeae 30%,
+  #525151 67%,
+  #020202 100%
+  );
   background-size: auto;
   background-clip: border-box;
   background-size: 200%;
@@ -107,7 +120,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 4s linear infinite;
+  animation: textclip 6s linear infinite;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,10 +138,10 @@ body {
   text-transform: uppercase;
      background-image: linear-gradient(
        -225deg,
-       #00b0ba 0%,
-       #797979 30%,
-       #000000 67%,
-       #929292 100%
+       #ffffff 0%,
+       #afaeae 30%,
+       #525151 67%,
+       #020202 100%
      );
      background-size: auto;
      background-clip: border-box;
@@ -137,7 +150,7 @@ body {
      background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
-     animation: textclip 4s linear infinite;
+     animation: textclip 6s linear infinite;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -155,10 +168,10 @@ body {
   text-transform:uppercase;
      background-image: linear-gradient(
        -225deg,
-       #00b0ba 0%,
-       #797979 30%,
-       #000000 67%,
-       #929292 100%
+       #ffffff 0%,
+       #afaeae 30%,
+       #525151 67%,
+       #020202 100%
      );
      background-size: auto;
      background-clip: border-box;
@@ -167,7 +180,7 @@ body {
      background-clip: text;
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
-     animation: textclip 4s linear infinite;
+     animation: textclip 6s linear infinite;
      display: flex;
        justify-content: center;
        align-items: center;
@@ -183,6 +196,7 @@ body {
   
 #aboutMeTitle {
   text-align: center;
+  text-decoration: underline;
  
 }
 
@@ -210,10 +224,10 @@ nav {
     background-size: 300% 300%;
     background-image: linear-gradient(
           -45deg, 
-          rgb(99, 206, 248) 0%, 
-          rgb(181, 181, 181) 25%, 
-          rgb(208, 208, 208) 51%, 
-          rgb(216, 216, 216) 100%
+          #ffffff 0%,
+          #afaeae 30%,
+          #525151 67%,
+          #020202 100%
     );  
     animation: AnimateBG 15s ease infinite;
     }
@@ -223,7 +237,15 @@ nav {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
   }
-  
+
+body {
+  background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
+  background-color: #cccccc; 
+  height: 500px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
   .nameLink {
     display: flex;
     justify-content: center;
@@ -256,13 +278,15 @@ nav {
 
   }
   
-  #aboutMeDiv {
+#aboutMeInfo {
     display:flex;
+    margin: 0% 25% 20% 20%;
+    background-color: white;
     flex-direction: column;
     text-align: center;
-    align-items: center;
+    align-items: normal;
     float: none;
-    width: 90%;
+    width: 50%;
     color:rgb(4, 4, 4);
     }
   
@@ -270,10 +294,11 @@ nav {
     text-transform: uppercase;
     background-image: linear-gradient(
     -225deg,
-    #00b0ba 0%,
-    #797979 30%,
-    #000000 67%,
-    #929292 100% );
+    #ffffff 0%,
+    #afaeae 30%,
+    #525151 67%,
+    #020202 100%
+    );
     background-size: auto;
     background-clip: border-box;
     background-size: 200%;
@@ -281,7 +306,7 @@ nav {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 4s linear infinite;
+    animation: textclip 6s linear infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,10 +324,11 @@ nav {
     text-transform: uppercase;
     background-image: linear-gradient(
     -225deg,
-    #00b0ba 0%,
-    #797979 30%,
-    #000000 67%,
-    #929292 100% );
+    #ffffff 0%,
+    #afaeae 30%,
+    #525151 67%,
+    #020202 100%
+    );
     background-size: auto;
     background-clip: border-box;
     background-size: 200%;
@@ -310,12 +336,12 @@ nav {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: textclip 4s linear infinite;
+    animation: textclip 6s linear infinite;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 150px;
-    font-size: 42px;
+    font-size: 52px;
   }
        
        @keyframes textclip {
@@ -328,11 +354,11 @@ nav {
     text-transform: uppercase;
        background-image: linear-gradient(
          -225deg,
-         #00b0ba 0%,
-         #797979 30%,
-         #000000 67%,
-         #929292 100%
-       );
+         #000000 0%,
+         #111111 30%,
+         #5f5f5f 67%,
+         #020202 100%
+         );
        background-size: auto;
        background-clip: border-box;
        background-size: 200%;
@@ -340,12 +366,12 @@ nav {
        background-clip: text;
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;
-       animation: textclip 4s linear infinite;
+       animation: textclip 6s linear infinite;
        display: flex;
        justify-content: center;
        align-items: center;
        height: 150px;
-       font-size: 22px;
+       font-size: 26px;
      }
      
      @keyframes textclip {
@@ -358,10 +384,10 @@ nav {
     text-transform:uppercase;
        background-image: linear-gradient(
          -225deg,
-         #00b0ba 0%,
-         #797979 30%,
-         #000000 67%,
-         #929292 100%
+         #000000 0%,
+         #111111 30%,
+         #5f5f5f 67%,
+         #020202 100%
        );
        background-size: auto;
        background-clip: border-box;
@@ -370,12 +396,12 @@ nav {
        background-clip: text;
        -webkit-background-clip: text;
        -webkit-text-fill-color: transparent;
-       animation: textclip 4s linear infinite;
+       animation: textclip 6s linear infinite;
        display: flex;
          justify-content: center;
          align-items: center;
          height: 150px;
-       font-size: 17px;
+       font-size: 18px;
      }
      
      @keyframes textclip {
@@ -398,5 +424,4 @@ nav {
   
   .hidden-page {
     display: none;
-    }
-}
+  }
