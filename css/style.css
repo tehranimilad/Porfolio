@@ -362,10 +362,10 @@ nav {
     text-transform: uppercase;
     background-image: linear-gradient(
     -225deg,
-    #ffffff 0%,
+    #060606 0%,
     #000000 30%,
     #000000 67%,
-    #ffffff 100%
+    #5e5d5d 100%
     );
     background-size: auto;
     background-clip: border-box;
@@ -498,6 +498,11 @@ nav {
     justify-content: center;
     text-align: center;
   }
+footer {
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
   
   .hidden-page {
     display: none;
