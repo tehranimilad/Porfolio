@@ -2,31 +2,30 @@
 /* default style for mobile */
 @media (max-width: 599px){
  body {
-
   width: 100%;
   height: 100vh;
   font-family: sans-serif;
   font-size: 14px;
   justify-content: center;
   background-size: 100%;
-  background-image: linear-gradient(
-);  
-  animation: AnimateBG 15s ease infinite;
+  background-image: linear-gradient;  
+  animation: AnimateBG 20s ease infinite;
   }
-  body {
-    background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
-    background-color: #cccccc; 
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover; 
+
+body {
+  background-image: url("https://w0.peakpx.com/wallpaper/809/145/HD-wallpaper-code-dots-dev-html.jpg");
+  background-color: #cccccc; 
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 
 
 @keyframes AnimateBG { 
-  0%{background-position:0% 50%}
-  50%{background-position:100% 50%}
+  0%{background-position:0% 30%}
+  50%{background-position:60% 50%}
   100%{background-position:0% 50%}
 } 
 
@@ -47,13 +46,13 @@
 }    
 
 .nameLink3 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    max-width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
 }    
 
- .images{
+ .images {
   background: transparent;
   align-content: center;
   border-radius: 30px;
@@ -81,10 +80,10 @@
   text-transform: uppercase;
   background-image: linear-gradient(
   -225deg,
-  #060606 0%,
-  #000000 30%,
-  #000000 67%,
-  #5e5d5d 100%
+  #47d9fa 0%,
+  #ffffff 30%,
+  #ffffff 67%,
+  #ffffff 100%
   );
   background-size: auto;
   background-clip: border-box;
@@ -100,21 +99,21 @@
   height: 150px;
   font-size: 45px;
 }
-     
-     @keyframes textclip {
-       to {
-         background-position: 200% center;
-       }
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 #nameLinkMain {
   text-transform: uppercase;
   background-image: linear-gradient(
   -225deg,
-  #060606 0%,
-  #000000 30%,
-  #000000 67%,
-  #5e5d5d 100%
+  #47d9fa 0%,
+  #ffffff 30%,
+  #ffffff 67%,
+  #ffffff 100%
   );
   display: flex;  
   background-size: auto;
@@ -129,38 +128,39 @@
   justify-content: center;
   align-items: center;
   max-width: 599px;
-  height: 150px;
+  height: 100px;
   font-size: 33px;
 }
      
-     @keyframes textclip {
-       to {
-         background-position: 200% center;
-       }
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 #nameLinkSubtitle {
   text-transform: uppercase;
-     background-image: linear-gradient(
-       -225deg,
-       #060606 0%,
-       #000000 30%,
-       #000000 67%,
-       #5e5d5d 100%
-     );
-     background-size: auto;
-     background-clip: border-box;
-     background-size: 200%;
-     color: #fff;
-     background-clip: text;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     animation: textclip 6s linear infinite;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     height: 150px;
-     font-size: 19px;
+  background-image: linear-gradient(
+  -225deg,
+  #47d9fa 0%,
+  #ffffff 30%,
+  #ffffff 67%,
+  #ffffff 100%
+  );
+  background-size: auto;
+  background-clip: border-box;
+  background-size: 200%;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: flex;
+  padding: 0% 0% 0% 0%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 19px;
 }
    
    @keyframes textclip {
@@ -171,26 +171,26 @@
 
 #nameLinkBottom{
   text-transform:uppercase;
-     background-image: linear-gradient(
-       -225deg,
-       #060606 0%,
-       #000000 30%,
-       #000000 67%,
-       #5e5d5d 100%
-     );
-     background-size: auto;
-     background-clip: border-box;
-     background-size: 200%;
-     color: #fff;
-     background-clip: text;
-     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     animation: textclip 6s linear infinite;
-     display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 150px;
-     font-size: 17px;
+  background-image: linear-gradient(
+    -225deg,
+    #47d9fa 0%,
+    #ffffff 30%,
+    #ffffff 67%,
+    #ffffff 100%
+  );
+  background-size: auto;
+  background-clip: border-box;
+  background-size: 200%;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  font-size: 17px;
    }
    
    @keyframes textclip {
@@ -217,9 +217,10 @@
 #projectPictures {
   background-color: white;
   display: flex;
+  margin: 3% 0% 0% 25%;
   flex-direction: column;
   text-align: center;
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
@@ -236,9 +237,21 @@ nav {
   text-align: center;
 }
 
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+
+button {
+  background-color: white;
+  border-radius: 11%;
+}
+
 .hidden-page {
   display: none;
-  }
+}
 }
 
 
@@ -254,22 +267,21 @@ nav {
     background-size: 100%;
     background-image: linear-gradient(
     );  
-    animation: AnimateBG 7s ease infinite;
+    animation: AnimateBG 15s ease infinite;
   }
-    body {
-      background-image: url("https://www.wallpapertip.com/wmimgs/83-838381_html-wallpaper-background-code-coding-tags.jpg");
-      background-color: #cccccc; 
-      min-height: 100%;
-      background-attachment: fixed;
-      background-position: center; 
-      background-repeat: no-repeat;
-      background-size: cover; 
+  body {
+    background-image: url("https://w0.peakpx.com/wallpaper/809/145/HD-wallpaper-code-dots-dev-html.jpg");
+    background-color: #cccccc; 
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
     }
   
-  
   @keyframes AnimateBG { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
+    0%{background-position:0% 30%}
+    50%{background-position:60% 50%}
     100%{background-position:0% 50%}
   }  
 
@@ -286,40 +298,40 @@ nav {
     justify-content: center;
     text-align: center;
     max-width: 100%;
-    }    
+  }    
   
-  .nameLink3 {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      max-width: 100%;
-   }    
+.nameLink3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  }    
   
-  .images{
-      background: transparent;
-      align-content: center;
-      border-radius: 30px;
-      margin: 0% 0% 0% 30%;
-      border: 1px solid rgb(0, 0, 0);
-      box-shadow: 10px 10px 10px rgb(0, 0, 0);
-      width: 40%;
+.images{
+  background: transparent;
+  align-content: center;
+  border-radius: 30px;
+  margin: 0% 0% 0% 30%;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  width: 40%;
 
 
   }
   
 #aboutMeSec {
-    display:flex;
-    border-radius: 30px;
-    margin: 3% 25% 0% 20%;
-    padding: 1% 5% 1% 5%;
-    background-color: white;
-    flex-direction: column;
-    text-align: center;
-    align-items: normal;
-    float: none;
-    width: 50%;
-    color:rgb(4, 4, 4);
-  }
+  display:flex;
+  border-radius: 30px;
+  margin: 3% 25% 0% 20%;
+  padding: 1% 5% 1% 5%;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+  align-items: normal;
+  float: none;
+  width: 50%;
+  color:rgb(4, 4, 4);
+}
 
 #projectPictures {
   background-color: white;
@@ -346,152 +358,159 @@ nav {
 }
 
 #nameLink1 {
-    text-transform: uppercase;
-    background-image: linear-gradient(
-    -225deg,
-    #060606 0%,
-    #000000 30%,
-    #000000 67%,
-    #5e5d5d 100%
-    );
-    background-size: auto;
-    background-clip: border-box;
-    background-size: 200%;
-    color: #fff;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 6s linear infinite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    font-size: 45px;
-  }
-       
-       @keyframes textclip {
-         to {
-           background-position: 200% center;
-         }
-  }
-  
-  #nameLinkMain {
-    text-transform: uppercase;
-    background-image: linear-gradient(
-    -225deg,
-    #060606 0%,
-    #000000 30%,
-    #000000 67%,
-    #5e5d5d 100%
-    );
-    background-size: auto;
-    background-clip: border-box;
-    background-size: 200%;
-    color: #fff;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 6s linear infinite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-    font-size: 45px;
-  }
-       
-       @keyframes textclip {
-         to {
-           background-position: 200% center;
-         }
-  }
-  #nameLinkSubtitle {
-    text-transform: uppercase;
-       background-image: linear-gradient(
-         -225deg,
-         #060606 0%,
-         #000000 30%,
-         #000000 67%,
-         #5e5d5d 100%
-         );
-       background-size: auto;
-       background-clip: border-box;
-       background-size: 200%;
-       color: #fff;
-       background-clip: text;
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-       animation: textclip 6s linear infinite;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       height: 150px;
-       font-size: 27px;
-     }
-     
-     @keyframes textclip {
-       to {
-         background-position: 200% center;
-       }
-  }
-  
-  #nameLinkBottom{
-    text-transform:uppercase;
-       background-image: linear-gradient(
-         -225deg,
-         #060606 0%,
-         #000000 30%,
-         #000000 67%,
-         #5e5d5d 100%
-       );
-       background-size: auto;
-       background-clip: border-box;
-       background-size: 200%;
-       color: #fff;
-       background-clip: text;
-       -webkit-background-clip: text;
-       -webkit-text-fill-color: transparent;
-       animation: textclip 6s linear infinite;
-       display: flex;
-         justify-content: center;
-         align-items: center;
-         height: 150px;
-       font-size: 18px;
-     }
-     
-     @keyframes textclip {
-       to {
-         background-position: 200% center;
-       }
-    }
-    
-  #aboutMeTitle {
-    display:flex;
-    border-radius: 30px;
-    text-decoration: underline;
-    margin: 3% 20% 2% 31%;
-    padding: 1% 3% 1% 3%;
-    background-color: white;
-    flex-direction: column;
-    text-align: center;
-    align-items: normal;
-    float: none;
-    width: 30%;
-    color:rgb(4, 4, 4);
-  }
-  
-  nav {
-    display: flex;
-    align-content: stretch;
-    justify-content: center;
-    text-align: center;
-  }
-footer {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+  -225deg,
+  #47d9fa 0%,
+  #ffffff 30%,
+  #ffffff 67%,
+  #ffffff 100%
+  );
+  background-size: auto;
+  background-clip: border-box;
+  background-size: 200%;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
   display: flex;
-  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-size: 45px;
+  }
+       
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+#nameLinkMain {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+  -225deg,
+  #47d9fa 0%,
+  #ffffff 30%,
+  #ffffff 67%,
+  #ffffff 100%
+  );
+  background-size: auto;
+  background-clip: border-box;
+  background-size: 200%;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 45px;
+  }
+       
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+#nameLinkSubtitle {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+  -225deg,
+  #47d9fa 0%,
+  #ffffff 30%,
+  #ffffff 67%,
+  #ffffff 100%
+    );
+  background-size: auto;
+  background-clip: border-box;
+  background-size: 200%;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  font-size: 27px;
+  }
+     
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  
+#nameLinkBottom{
+  text-transform:uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #47d9fa 0%,
+    #ffffff 30%,
+    #ffffff 67%,
+    #ffffff 100%
+  );
+  background-size: auto;
+  background-clip: border-box;
+  background-size: 200%;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  font-size: 18px;
+}
+     
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+    
+#aboutMeTitle {
+  display:flex;
+  border-radius: 30px;
+  text-decoration: underline;
+  margin: 3% 20% 2% 34%;
+  padding: 1% 1% 1% 1%;
+  background-color: white;
+  flex-direction: column;
+  text-align: center;
+  align-items: normal;
+  float: none;
+  width: 30%;
+  color:rgb(4, 4, 4);
+}
+  
+nav {
+  display: flex;
+  align-content: stretch;
+  justify-content: center;
+  text-align: center;
+}
+footer {
+  left: 0;
+  padding-top: 1%;
+  bottom: 0;
+  width: 100%;
   text-align: center;
 }
   
-  .hidden-page {
-    display: none;
+button {
+  background-color: white;
+  border-radius: 11%;
+}
+
+.hidden-page {
+  display: none;
 }
 }
