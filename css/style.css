@@ -250,6 +250,12 @@ button {
   border-radius: 11%;
 }
 
+.aboutMeResumeLink {
+  color: black;
+  text-decoration: underline;
+}
+
+
 .hidden-page {
   display: none;
 }
@@ -265,10 +271,10 @@ button {
     font-family: sans-serif;
     font-size: 15px;
     justify-content: center;
-    background-size: 100%;
+    background-size: 300%;
     background-image: linear-gradient(
     );  
-    animation: AnimateBG 15s ease infinite;
+    animation: AnimateBG 35s ease infinite;
   }
   body {
     background-image: url("https://w0.peakpx.com/wallpaper/809/145/HD-wallpaper-code-dots-dev-html.jpg");
@@ -281,8 +287,8 @@ button {
     }
   
   @keyframes AnimateBG { 
-    0%{background-position:0% 30%}
-    50%{background-position:60% 50%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
     100%{background-position:0% 50%}
   }  
 
@@ -491,7 +497,9 @@ button {
   width: 30%;
   color:rgb(4, 4, 4);
 }
-  
+
+
+
 nav {
   display: flex;
   align-content: stretch;
@@ -500,15 +508,22 @@ nav {
 }
 footer {
   left: 0;
-  padding-top: 1%;
+  padding-top: 3%;
+  padding-bottom: 4%;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
-  
+
+.aboutMeResumeLink {
+  color: black;
+  text-decoration: underline;
+}
+
 button {
   background-color: white;
   border-radius: 11%;
+  padding: .5%;
   animation:bouncy 5s infinite linear;
   position:relative;
 }

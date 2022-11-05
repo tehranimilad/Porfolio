@@ -1,7 +1,7 @@
 // About Me Page 
 // Creating variables for buttons displayed on about me page
 const pages = document.getElementsByTagName("section")
-const buttons = document.getElementsByTagName("button")
+const buttons = document.getElementsByClassName("buttonNav")
 
 // Creating the function that will show/hide specific content
 function buttonClick(event) {
@@ -21,3 +21,20 @@ function buttonClick(event) {
 for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', buttonClick)
 }
+
+
+// Creating event that will open resume 
+// const openResumeLink = document.getElementById('resumeLink');
+// const resumeOpen = openResumeLink.setAttribute('href', '../Resume.pdf');
+// const openInNewWindow = openResumeLink.setAttribute('target', '_blank')
+// openResumeLink.append(resumeOpen)
+const aboutMeResume = document.getElementById('aboutMeSec')
+const viewResume = document.createElement('a')
+viewResume.innerText = 'View Resume'
+viewResume.setAttribute('href', 'https://drive.google.com/file/d/1X9zyneOCBbtiCC30dXeORUYDqGslzxeE/view?usp=share_link')
+viewResume.setAttribute("target", "_blank")
+viewResume.setAttribute('class', 'aboutMeResumeLink')
+aboutMeResume.prepend(viewResume)
+
+
+
