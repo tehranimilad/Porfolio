@@ -22,19 +22,22 @@ for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', buttonClick)
 }
 
-
-// Creating event that will open resume 
-// const openResumeLink = document.getElementById('resumeLink');
-// const resumeOpen = openResumeLink.setAttribute('href', '../Resume.pdf');
-// const openInNewWindow = openResumeLink.setAttribute('target', '_blank')
-// openResumeLink.append(resumeOpen)
+// Grabbing the About Me Section in Order to Create a Link that will open up my resume
 const aboutMeResume = document.getElementById('aboutMeSec')
 const viewResume = document.createElement('a')
 viewResume.innerText = 'View Resume'
 viewResume.setAttribute('href', 'https://drive.google.com/file/d/1X9zyneOCBbtiCC30dXeORUYDqGslzxeE/view?usp=share_link')
 viewResume.setAttribute("target", "_blank")
 viewResume.setAttribute('class', 'aboutMeResumeLink')
-aboutMeResume.prepend(viewResume)
+aboutMeResume.append(viewResume)
+
+// Creating a link users to contact me 
+const contactMe = document.createElement('a')
+contactMe.innerText = 'Email Me'
+contactMe.setAttribute('href', 'mailto:tehranimilad92@gmail.com')
+contactMe.setAttribute("target", "_blank")
+contactMe.setAttribute('class', 'aboutMeResumeLink')
+aboutMeResume.append(contactMe)
 
 
 

@@ -1,5 +1,6 @@
 
 /* default style for mobile */
+/* found text animation on google and modified the css code */
 @media (max-width: 599px){
  body {
   width: 100%;
@@ -28,8 +29,6 @@ body {
   50%{background-position:60% 50%}
   100%{background-position:0% 50%}
 } 
-
-
 
 .nameLink {
   display: flex;
@@ -68,7 +67,7 @@ body {
   flex-direction: column;
   background: white;
   margin: 2% 25% 0% 20%;
-  padding: 5% 5% 1% 5%;
+  padding: 5% 5% 2% 5%;
   text-align: center;
   align-items: normal;
   float: none;
@@ -262,7 +261,8 @@ button {
 }
 
 
-/********************** default style for computers ***********************/
+/************************************** default style for computers ************************************************/
+/* found text animation on google and modified the css code */
 @media (min-width: 600px){
   body {
 
