@@ -12,8 +12,7 @@
 }
 
 body {
-  background-image: url("https://w0.peakpx.com/wallpaper/809/145/HD-wallpaper-code-dots-dev-html.jpg");
-  min-height: 100%;
+  background-image: url("https://cutewallpaper.org/22/coding-minimalist-wallpapers/121414087.jpg");  min-height: 100%;
   background-attachment: fixed;
   background-position: center; 
   background-repeat: no-repeat;
@@ -168,9 +167,9 @@ body {
   text-transform:uppercase;
   background-image: linear-gradient(
     -225deg,
-    #24d1f8 0%,
-    #7fe6ce 30%,
-    #ff6666 67%,
+    #47d9fa 0%,
+    #ffffff 30%,
+    #ffffff 67%,
     #ffffff 100%
   );
   background-size: auto;
@@ -266,6 +265,11 @@ button:hover {
   text-decoration: underline;
 }
 
+.footIcons {
+  width: 5%;
+  border-radius: 15%;
+}
+
 .hidden-page {
   display: none;
 }
@@ -283,13 +287,13 @@ button:hover {
     animation: AnimateBG 5s ease infinite;
 }
   
-  body {
-    background-image: url("https://w0.peakpx.com/wallpaper/809/145/HD-wallpaper-code-dots-dev-html.jpg"); 
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover; 
+body {
+  background-image: url("https://cutewallpaper.org/22/coding-minimalist-wallpapers/121414087.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
   
   @keyframes AnimateBG { 
@@ -348,7 +352,7 @@ button:hover {
   display:flex;
   flex-direction: column;
   text-align: center;
-  width: 50%;
+  width: 30%;
   margin: 0 auto;
   margin-top: 2%
 }
@@ -371,9 +375,9 @@ button:hover {
   text-transform: uppercase;
   background-image: linear-gradient(
   -225deg,
-  #24d1f8 0%,
-  #7fe6ce 30%,
-  #ff6666 67%,
+  #47d9fa 0%,
+  #ffffff 30%,
+  #ffffff 67%,
   #ffffff 100%
   );
   background-size: auto;
@@ -401,9 +405,9 @@ button:hover {
   text-transform: uppercase;
   background-image: linear-gradient(
   -225deg,
-  #24d1f8 0%,
-  #7fe6ce 30%,
-  #ff6666 67%,
+  #47d9fa 0%,
+  #ffffff 30%,
+  #ffffff 67%,
   #ffffff 100%
   );
   background-size: auto;
@@ -431,9 +435,9 @@ button:hover {
   text-transform: uppercase;
   background-image: linear-gradient(
   -225deg,
-  #24d1f8 0%,
-  #7fe6ce 30%,
-  #ff6666 67%,
+  #47d9fa 0%,
+  #ffffff 30%,
+  #ffffff 67%,
   #ffffff 100%
     );
   background-size: auto;
@@ -462,9 +466,9 @@ button:hover {
   text-transform:uppercase;
   background-image: linear-gradient(
     -225deg,
-    #24d1f8 0%,
-    #7fe6ce 30%,
-    #ff6666 67%,
+    #47d9fa 0%,
+    #ffffff 30%,
+    #ffffff 67%,
     #ffffff 100%
   );
   background-size: auto;
@@ -523,7 +527,9 @@ footer {
 }
 
 button {
+  margin: 2px;
   background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(0, 0, 0);
   border-radius: 11%;
   padding: .5%;
   animation:bouncy 5s infinite linear;
@@ -545,6 +551,12 @@ button:hover {
   background-color: rgb(187, 187, 187);
   cursor: pointer;
 }
+
+.footIcons {
+  width: 5%;
+  border-radius: 15%;
+}
+
 .hidden-page {
   display: none;
 }
