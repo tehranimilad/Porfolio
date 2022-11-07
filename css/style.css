@@ -406,6 +406,7 @@ button:hover {
   background-size: auto;
   background-clip: border-box;
   background-size: 200%;
+  padding-bottom: 5px;
   color: #fff;
   background-clip: text;
   -webkit-background-clip: text;
