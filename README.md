@@ -5,6 +5,7 @@ An embedded screenshot of the app:
 
 List of the Technologies used:
 JavaScript, CSS, HTML.
+Referenced "https://blog.hubspot.com/website/css-animation-examples" for CSS animation (Main Page and About me Title)
 
 Installation instructions:
 Requires a device that is connected to the internet. 

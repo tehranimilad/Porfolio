@@ -1,6 +1,5 @@
 
 /* default style for mobile */
-/* found text animation on google and modified the css code */
 @media (max-width: 599px){
  body {
   width: 100%;
@@ -41,6 +40,7 @@
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
+/* found text animation on google and modified the css code */
 .nameLink1 {
   text-transform: uppercase;
   background-image: linear-gradient(
