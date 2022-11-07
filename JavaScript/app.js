@@ -1,4 +1,3 @@
-// About Me Page 
 // Creating variables for buttons displayed on about me page
 const pages = document.getElementsByTagName("section")
 const buttons = document.getElementsByClassName("buttonNav")

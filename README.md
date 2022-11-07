@@ -8,6 +8,15 @@ JavaScript, CSS, HTML.
 
 Installation instructions:
 Requires a device that is connected to the internet. 
+Necessary folders/files in order to run website: 
+-index.html
+-JavaScript
+-Screenshots
+-css
+-html
+-images
+-Resume.pdf
+
 
 Your User stories – who are your users, what do they want and why?:
 
