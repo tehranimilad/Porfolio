@@ -1,7 +1,7 @@
 # Porfolio
 Milad Tehrani's Porfolio
 An embedded screenshot of the app:
-![mobileView](Screenshots/1-mobile.png)
+![mobileView](Screenshots/2-mobile.png)
 
 List of the Technologies used:
 JavaScript, CSS, HTML.
