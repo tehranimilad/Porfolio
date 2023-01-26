@@ -171,18 +171,6 @@
   box-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
-#projectPictures {
-  background-color: white;
-  display: flex;
-  margin: 3% 0% 0% 25%;
-  border: 4px solid rgb(0, 0, 0);
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-  color:rgb(4, 4, 4);
-  flex-direction: column;
-  text-align: center;
-  width: 50%;
-  height: auto;
-}
 
 #ulList {
   list-style: none;
@@ -309,20 +297,6 @@ button:hover {
 }
 
 
-
-#projectPictures {
-  background-color: white;
-  display:flex;
-  flex-direction: column;
-  text-align: center;
-  border: 4px solid rgb(0, 0, 0);
-  box-shadow: 10px 10px 10px rgb(0, 0, 0);
-  color:rgb(4, 4, 4);
-  width: 30%;
-  margin: 0 auto;
-  margin-top: 2%
-
-}
 
 #ulList {
   list-style: none;
@@ -538,5 +512,21 @@ button:hover {
 
 .hidden-page {
   display: none;
+}
+
+#project-section {
+  background-color: white;
+  border: 4px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#projectLinks{
+  text-decoration: underline;
+  color: rgb(0, 38, 254);
 }
 }
