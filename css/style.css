@@ -251,6 +251,22 @@ button:hover {
 .hidden-page {
   display: none;
 }
+#project-section {
+  background-color: white;
+  border: 4px solid rgb(0, 0, 0);
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#projectLinks{
+  text-decoration: underline;
+  color: rgb(0, 38, 254);
+}
+
 }
 
 
