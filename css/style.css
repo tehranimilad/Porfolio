@@ -545,4 +545,10 @@ button:hover {
   text-decoration: underline;
   color: rgb(0, 38, 254);
 }
+
+.project-images {
+  max-width: 40%;
+  display: block;
+  margin: 0 auto;
+}
 }
