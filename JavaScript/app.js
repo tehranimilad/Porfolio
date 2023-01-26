@@ -38,5 +38,3 @@ contactMe.setAttribute("target", "_blank")
 contactMe.setAttribute('class', 'aboutMeResumeLink')
 aboutMeResume.append(contactMe)
 
-
-
